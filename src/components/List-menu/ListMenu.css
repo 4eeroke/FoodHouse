@@ -1,0 +1,56 @@
+.listmenu-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.listmenu {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.listmenu-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+    text-align: left;
+    gap: 10px;
+    color: #fff;
+    background: rgba(35, 35, 35, 0.3);
+    opacity: 0;
+    transition: all .4s;
+}
+
+.listmenu-info:hover {
+    opacity: 1;
+}
+
+.listmenu-info h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.listmenu-des {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.listmenu-size {
+    font-size: 12px;
+    
+}
+
+.listmenu-button {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
